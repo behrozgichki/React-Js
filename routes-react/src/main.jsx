@@ -8,8 +8,13 @@ import Dashbord from "./components/Dashbord.jsx"
 import DashbordHome from './components/DashbordHome.jsx'
 import Profile from "./components/Profile.jsx"
 import Setting from "./components/Setting.jsx"
+import ProductsDetails from './components/ProductsDetails.jsx'
+import Cart from './components/Cart.jsx'
+import { useState } from 'react'
+
 
 createRoot(document.getElementById('root')).render(
+  
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
@@ -22,7 +27,10 @@ createRoot(document.getElementById('root')).render(
         <Route path='profile' element={<Profile />} />
         <Route path='setting' element={<Setting />} />
 
+
       </Route>
+      < Route path='/product/:id' element={<ProductsDetails/>}/>
+      <Route path='/cart' element={<Cart/>}/>
     </Routes>
   </BrowserRouter>
 )

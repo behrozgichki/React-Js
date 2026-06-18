@@ -1,0 +1,321 @@
+.product-card{
+
+
+  background:white;
+
+  border-radius:26px;
+
+
+  overflow:hidden;
+
+
+  box-shadow:
+
+
+  0 20px 50px rgba(15,23,42,.12);
+
+
+
+  transition:.35s;
+
+
+}
+
+
+
+.product-card:hover{
+
+
+  transform:translateY(-10px);
+
+
+  box-shadow:
+
+
+  0 30px 70px rgba(15,23,42,.2);
+
+
+}
+
+
+
+
+/* IMAGE */
+
+
+.product-image{
+
+
+  height:230px;
+
+  position:relative;
+
+
+  overflow:hidden;
+
+
+  background:#f1f5f9;
+
+
+}
+
+
+
+
+.product-image img{
+
+
+  width:100%;
+
+
+  height:100%;
+
+
+  object-fit:cover;
+
+
+  transition:.4s;
+
+
+}
+
+
+
+.product-card:hover img{
+
+
+  transform:scale(1.08);
+
+
+}
+
+
+
+
+
+.sale-badge{
+
+
+  position:absolute;
+
+
+  top:15px;
+
+  left:15px;
+
+
+
+  background:#16a34a;
+
+
+  color:white;
+
+
+  padding:7px 14px;
+
+
+  border-radius:20px;
+
+
+  font-size:12px;
+
+
+  font-weight:700;
+
+
+}
+
+
+
+
+
+/* CONTENT */
+
+
+.product-content{
+
+
+  padding:22px;
+
+
+}
+
+
+
+
+
+.product-title{
+
+
+  font-size:19px;
+
+
+  font-weight:800;
+
+
+  color:#0f172a;
+
+
+  margin-bottom:10px;
+
+
+}
+
+
+
+
+
+.product-description{
+
+
+  font-size:14px;
+
+
+  color:#64748b;
+
+
+  line-height:1.5;
+
+
+  min-height:45px;
+
+
+}
+
+
+
+
+
+.product-info{
+
+
+  display:flex;
+
+
+  justify-content:space-between;
+
+
+  align-items:center;
+
+
+  margin:20px 0;
+
+
+}
+
+
+
+
+
+.product-price{
+
+
+  font-size:26px;
+
+
+  font-weight:900;
+
+
+  color:#2563eb;
+
+
+}
+
+
+
+
+
+.rating{
+
+
+  background:#fef3c7;
+
+
+  color:#92400e;
+
+
+  padding:8px 14px;
+
+
+  border-radius:20px;
+
+
+  font-size:13px;
+
+
+  font-weight:700;
+
+
+}
+
+
+
+
+
+.view-btn{
+
+
+  width:100%;
+
+
+  padding:15px;
+
+
+  border:none;
+
+
+  border-radius:18px;
+
+
+
+  background:
+
+
+  linear-gradient(
+
+  135deg,
+
+  #2563eb,
+
+  #9333ea
+
+  );
+
+
+
+  color:white;
+
+
+  font-weight:700;
+
+
+  font-size:15px;
+
+
+  cursor:pointer;
+
+
+  transition:.3s;
+   margin: 5px;
+
+
+}
+
+
+
+
+
+.view-btn:hover{
+
+
+  transform:translateY(-3px);
+
+
+
+  box-shadow:
+
+
+  0 15px 35px rgba(37,99,235,.35);
+
+
+}
